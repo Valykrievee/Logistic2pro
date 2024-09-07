@@ -1,0 +1,135 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Desktop styles (default) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Mobile styles (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        background-color: #ccc;
+        .navbar {
+            padding: 0.5rem;
+        }
+        .navbar-brand {
+            font-size: 1rem;
+        }
+        .navbar-nav {
+            margin-left: 10px;
+        }
+        .nav-item {
+            margin-right: 10px;
+        }
+        .form-inline {
+            margin-left: 10px;
+        }
+        .form-control {
+            width: 150px;
+        }
+    }
+}
+
+/* Tablet styles (min-width: 769px and max-width: 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 18px;
+        background-color: #bbb;
+        .navbar {
+            padding: 0.75rem;
+        }
+        .navbar-brand {
+            font-size: 1.25rem;
+        }
+        .navbar-nav {
+            margin-left: 15px;
+        }
+        .nav-item {
+            margin-right: 15px;
+        }
+        .form-inline {
+            margin-left: 15px;
+        }
+        .form-control {
+            width: 175px;
+        }
+    
+
+    }
+}
+
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.dropdown-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+/* logistic font */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* navbar home margin */
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.dropdown-menu {
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-divider {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.form-inline {
+    margin-left: 20px;
+}
+
+.form-control {
+    width: 200px;
+}
+
+/*navigation bars in blue on hover */
+.nav-link:hover {
+    background-color: #007bff; /* blue color */
+    color: #ffffff; /* white text color */
+    text-decoration: none;
+}
+
+.dropdown-toggle:hover {
+    background-color: #007bff; /* blue color */
+    color: #ffffff; /* white text color */
+    text-decoration: none;
+}
+
+
+
